@@ -21,7 +21,7 @@ int main() {
     char s[10] = {}; 
     itoa(n, s);
     printf("%s\n",s );
-    printf("char:%d, short:%d, int:%d, long:%d, long long: %d, long double: %d\n", sizeof(char), sizeof(short), sizeof(int), sizeof(long), sizeof(long long int), sizeof(long double));
+   // printf("char:%d, short:%d, int:%d, long:%d, long long: %d, long double: %d\n", sizeof(char), sizeof(short), sizeof(int), sizeof(long), sizeof(long long int), sizeof(long double));
 
     return 0;
 }
