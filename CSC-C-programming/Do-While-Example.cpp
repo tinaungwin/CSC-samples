@@ -17,11 +17,9 @@ void itoa(int n, char s[])
 }
 
 int main() {
-    int n = 94;
+    int n = 4242;
     char s[10] = {}; 
     itoa(n, s);
     printf("%s\n",s );
-   // printf("char:%d, short:%d, int:%d, long:%d, long long: %d, long double: %d\n", sizeof(char), sizeof(short), sizeof(int), sizeof(long), sizeof(long long int), sizeof(long double));
-
     return 0;
 }
