@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33328.57
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Do-While Example", "CSC-C-programming\CSC-C-programming.vcxproj", "{58BCBB5C-6744-4766-BF5D-382ED9E554A7}"
 EndProject
@@ -38,6 +38,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "concat", "concat\concat.vcxproj", "{28208021-0318-4158-99CF-B6BD3809363E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01-ErrorShow", "..\..\..\..\Devl\windows-via-c-cpp\src\01-ErrorShow\01-ErrorShow.vcxproj", "{1F169C3B-A907-402D-B2EF-C0BB21E90AF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataSize", "DataSize\DataSize.vcxproj", "{5793658B-0224-4093-978A-4BB483D564E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -191,6 +193,14 @@ Global
 		{1F169C3B-A907-402D-B2EF-C0BB21E90AF9}.Release|x64.Build.0 = Release|x64
 		{1F169C3B-A907-402D-B2EF-C0BB21E90AF9}.Release|x86.ActiveCfg = Release|Win32
 		{1F169C3B-A907-402D-B2EF-C0BB21E90AF9}.Release|x86.Build.0 = Release|Win32
+		{5793658B-0224-4093-978A-4BB483D564E1}.Debug|x64.ActiveCfg = Debug|x64
+		{5793658B-0224-4093-978A-4BB483D564E1}.Debug|x64.Build.0 = Debug|x64
+		{5793658B-0224-4093-978A-4BB483D564E1}.Debug|x86.ActiveCfg = Debug|Win32
+		{5793658B-0224-4093-978A-4BB483D564E1}.Debug|x86.Build.0 = Debug|Win32
+		{5793658B-0224-4093-978A-4BB483D564E1}.Release|x64.ActiveCfg = Release|x64
+		{5793658B-0224-4093-978A-4BB483D564E1}.Release|x64.Build.0 = Release|x64
+		{5793658B-0224-4093-978A-4BB483D564E1}.Release|x86.ActiveCfg = Release|Win32
+		{5793658B-0224-4093-978A-4BB483D564E1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

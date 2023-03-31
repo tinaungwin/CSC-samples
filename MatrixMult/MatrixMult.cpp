@@ -11,9 +11,9 @@ float C[2][2]{};
 
 void MatrixMult()
 {
-	for (int i = 0; i <= SIZE; i++)
+	for (int i = 0; i < SIZE; i++)
 		for (int j = 0; j < SIZE; j++)
-			for (int k = 0; k <= SIZE; k++)
+			for (int k = 0; k < SIZE; k++)
 				C[i][j] = C[i][j] + A[i][k] * B[k][j];
 
 }
