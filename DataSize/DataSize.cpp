@@ -6,10 +6,10 @@
 int main()
 {
     int* i=NULL;
-    printf("int :%d\n", sizeof(int));
-    printf("float :%d\n", sizeof(float));
-    printf("double :%d\n", sizeof(double));
-    printf("pointer :%d\n", sizeof(i));
+    printf("int :%llu\n", sizeof(int));
+    printf("float :%llu\n", sizeof(float));
+    printf("double :%llu\n", sizeof(double));
+    printf("pointer :%llu\n", sizeof(i));
     return 0;
 }
 
