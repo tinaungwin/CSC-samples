@@ -1,4 +1,4 @@
-// find all lines matching pattern from input from commandline.
+// Search a pattern in the given string and returns the starting position if found.
 // press control+z to stop.
 
 #include <stdio.h>
@@ -31,7 +31,7 @@ int strindex(char s[], char t[])
 
 int getline(char s[], int lim)
 {
-    int c, i;
+    int c=0, i=0;
         i = 0;
         while (--lim > 0 && (c = getchar()) != EOF && c != '\n')
             s[i++] = c;
