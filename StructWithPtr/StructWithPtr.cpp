@@ -20,5 +20,10 @@ int main()
 
 	printf("Year: %u\nMonth: %u\nDay of Week:%u\nDate: %u\nHour: %u\nMinute: %u\nSecond: %u\nMSeconds: %u\n",
 		SysTime.wYear, SysTime.wMonth, SysTime.wDayOfWeek, SysTime.wDate, SysTime.wHour, SysTime.wMinute, SysTime.wSecond, SysTime.wMilliseconds);
+	
+	SystemTime* st=&SysTime;
+	GetLocalTime((LPSYSTEMTIME)st);
+	printf("Year: %u\nMonth: %u\nDay of Week:%u\nDate: %u\nHour: %u\nMinute: %u\nSecond: %u\nMSeconds: %u\n",
+		st->wYear, st->wMonth, st->wDayOfWeek, st->wDate, st->wHour, st->wMinute, st->wSecond, st->wMilliseconds);
 	return 0;
 }
